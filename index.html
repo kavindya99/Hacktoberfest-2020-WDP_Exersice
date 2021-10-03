@@ -23,15 +23,14 @@
       }
 
       function Cng(sel) {
-        document.getElementById("img").src =
+        document.getElementById("image").src =
           ImgPath + sel.options[sel.selectedIndex].value;
       }
     </script>
   </head>
   <body>
-    <div><p>test test test</p></div>
     <h1 style="color: red">Hello!!</h1>
-    <img id="img" src="Fred Flintstone.png" width="250px" />
+    <img id="image" src="Fred Flintstone.png" width="250px" />
     <br />
 
     <select name="Sel" size="1" onchange="Cng(this);">
@@ -40,5 +39,6 @@
       <option value="Jerry Mouse.png">Jerry Mouse</option>
       <option value="Fred Flintstone.png">Fred Flintstone</option>
     </select>
+    <p>hacktomber fest 2k21</p>
   </body>
 </html>
